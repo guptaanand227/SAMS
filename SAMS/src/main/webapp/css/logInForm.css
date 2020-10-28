@@ -1,0 +1,90 @@
+body{
+ margin:0px;
+ padding:0px;
+ background-image: url("../images/Nature.jpg");
+ background-size:cover;
+ font-family:sans-serif;
+}
+.logIn{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50% , -50%);
+	width:350px;
+	height:460px;
+	padding:80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.user{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	top:calc(-100px/2);
+	left:calc(50% - 50px);
+}
+#h2{
+	margin:0px;
+	padding:0 0 20px;
+	color:#efed40;
+	text-align:center;
+}
+.logIn p{
+ margin:0px;
+ padding:0px;
+ color:#fff;
+ font-weight:bold;
+}
+.logIn input{
+	width:100%;
+	margin-bottom:20px;
+}
+.logIn select{
+	width:100%;
+	margin-bottom:20px;
+}
+.logIn input[type="password"],.logIn input[type="text"]{
+ border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ color:#fff;
+ font-size:16px;
+}
+
+.logIn select{
+ border:none;
+ border-bottom:1px solid #fff;
+ background:transparent;
+ outline:none;
+ height:40px;
+ color:#00ff00;
+ font-size:16px;
+}
+
+::placeholder{
+	color:rgba(255,255,255,.5);
+}
+.logIn input[type="submit"]{
+	border:none;
+	outline:none;	
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#ff267e;
+	cursor:pointer;
+	border-radius:20px;
+}
+.logIn input[type="submit"]:hover{
+	background:#efed40;
+	color:#262626;
+}
+.logIn  a{
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
